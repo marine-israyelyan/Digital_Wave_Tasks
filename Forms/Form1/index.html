@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My feedback form</h1>
+    <form action="#">
+        <ul>
+            <li>
+                <label for="name">Name: </label>
+                <input type="text" id="name">
+            </li>
+            <li>
+                <label for="mail">Email: </label>
+                <input type="email" id="mail">
+            </li>
+            <li>
+                <label for="password">Password: </label>
+                <input type="password" id="password">
+            </li>
+        </ul>
+
+
+        <ul>
+            <li>Please check all the emotions that apply to you:</li>
+            <li class="list__position">
+                <label for="cb1">Angry</label>
+                <input type="checkbox" id="cb1">
+            </li>
+            <li class="list__position">
+                <label for="cb2">Sad</label>
+                <input type="checkbox" id="cb2">
+            </li>
+            <li class="list__position">
+                <label for="cb3">Happy</label>
+                <input type="checkbox" id="cb3">
+            </li>
+            <li class="list__position">
+                <label for="cb4">Ambivalent</label>
+                <input type="checkbox" id="cb4">
+            </li>
+        </ul>
+
+
+        <ul>
+            <li>How satisfied were you with our service?</li>
+            <li class="list__position">
+                <label for="radio1">Very satisfied</label>
+                <input type="radio" name="radio" id="radio1">
+            </li>
+            <li class="list__position">
+                <label for="radio2">Satisfied</label>
+                <input type="radio" name="radio" id="radio2">
+            </li>
+            <li class="list__position">
+                <label for="radio3">Didn't care</label>
+                <input type="radio" name="radio" id="radio3">
+            </li>
+            <li class="list__position">
+                <label for="radio4">Dissatisfied</label>
+                <input type="radio" name="radio" id="radio4">
+            </li>
+            <li class="list__position">
+                <label for="radio5">Very dissatisfied</label>
+                <input type="radio" name="radio" id="radio5">
+            </li>
+            <li>
+                <label for="area">Further comments: </label>
+                <textarea name="" id="area" class="area"></textarea>
+            </li>
+        </ul>
+
+
+        <ul>
+            <li>
+                <label for="photo">Bio photo: </label>
+                <input type="text" id="photo">
+                <label for="choose" class="choose__label">Choose...</label>
+                <input type="file" id="choose" class="choose">
+            </li>
+            <li class="location">
+                <label for="select">Location visited: </label>
+                <select id="select" class="select">
+                    <option disabled selected>Select location</option>
+                    <option>option1</option>
+                    <option>option2</option>
+                    <option>option3</option>
+                    <option>option4</option>
+                </select>
+            </li>
+        </ul>
+        <ul class="submit">
+            <li><button type="submit">submit</button></li>
+        </ul>
+    </form>
+</body>
+</html>

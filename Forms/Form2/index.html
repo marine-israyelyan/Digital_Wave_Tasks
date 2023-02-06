@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="flexbox">
+    <h1>Contact Details</h1>
+    <form action="#" class="form">
+        <p>Please enter your personal details</p>
+        <ul class="inputs">
+            <li>
+                <label for="fname">First name:*</label>
+                <input type="text" placeholder="Fred" id="fname" required>
+            </li>
+            <li>
+                <label for="lname">Last name:*</label>
+                <input type="text" placeholder="Bloggs" id="lname" required>
+            </li>
+            <li>
+                <label for="address">Street address:</label>
+                <input type="text" placeholder="Station Road" id="address">
+            </li>
+            <li>
+                <label for="city">Town/city:</label>
+                <input class="inp_large" type="text" placeholder="Dorkwell" id="city">
+            </li>
+            <li>
+                <label for="postcode">Postcode/zip:</label>
+                <input class="inp_small" type="text" placeholder="DW1 56A" id="postcode">
+            </li>
+            <li>
+                <label for="phone">Telephone:</label>
+                <input type="tel" placeholder="0123 456789" id="phone">
+            </li>
+            <li>
+                <label for="mobile">Mobile:</label>
+                <input type="tel" placeholder="01567 899876" id="mobile">
+            </li>
+            <li>
+                <label for="mail">Email address:*</label>
+                <input class="inp_large" type="email" placeholder="fbloggs@coldmail.net" id="mail" required>
+            </li>
+        </ul>
+        <p class="p2">Fields marked * are required.</p>
+        <div class="sub_but">
+        <button class="submit" type="submit">Submit</button>
+        </div>
+    </form>
+</div><!--flexbox-->
+</body>
+</html>

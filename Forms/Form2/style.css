@@ -1,0 +1,55 @@
+.flexbox{
+    width: 493px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 35px;
+}
+.form{
+    border: 1px solid #000;
+    width: 100%;
+    padding: 20px 15px;
+}
+label{
+    width: 115px;
+    display: inline-block;
+    text-align: right;
+}
+.inputs{
+    list-style: none;
+}
+li{
+    margin-bottom: 15px;
+}
+li:last-child{
+    margin-bottom: 20px;
+}
+input{
+    width: 117px;
+}
+input::placeholder{
+    color: #000;
+}
+.inp_large{
+    width: 267px;
+}
+.inp_small{
+    width: 75px;
+}
+.p2{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.submit{
+    text-align: center;
+    background-color: #dedede;
+    border-color: gray;
+}
+.submit:hover{
+    cursor: pointer;
+}
+.sub_but{
+    display: flex;
+    justify-content: center;
+}

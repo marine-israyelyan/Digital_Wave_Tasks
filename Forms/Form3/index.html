@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="flexbox">
+    <h1>Survey Form</h1>
+    <form action="#">
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <ul>
+            <li>
+                <label for="name">* Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </li>
+            <li>
+                <label for="mail">* Email:</label>
+                <input type="text" id="mail" placeholder="Enter your Email" required>
+            </li>
+            <li>
+                <label for="age">* Age:</label>
+                <input type="number" id="age" placeholder="Age" required>
+            </li>
+            <li>
+                <label for="select">Which option best describes your current role? </label>
+                <select id="select" class="select">
+                    <option>Student</option>
+                    <option>Teacher</option>
+                    <option>Other</option>
+                </select>
+            </li>
+            <li class="radioflex">
+                <label>* How likely is that you would recomended freeCodeCamp to a friend?</label>
+                <div>
+                <input class="radioinput" type="radio" id="radio1" name="radio" required>
+                <label for="radio1" class="radiolab">Definitely</label><br>
+                <input class="radioinput" type="radio" id="radio2" name="radio" required>
+                <label for="radio2" class="radiolab">Maybe</label><br>
+                <input class="radioinput" type="radio" id="radio3" name="radio" required>
+                <label for="radio3" class="radiolab">Not sure</label>
+                </div>
+            </li>
+
+            <li>
+                <label for="select2">What do you like most in FCC: </label>
+                <select id="select2" class="select select2">
+                    <option disabled selected>Select an option</option>
+                    <option>option1</option>
+                    <option>option2</option>
+                    <option>option3</option>
+                </select>
+            </li>
+
+            <li class="checkflex">
+                <label>Things that should be improved in the future (Check all that apply):</label>
+                <div>
+                    <input class="checkinput" type="checkbox" id="input1">
+                    <label for="input1" class="radiolab">Front-end Projects</label><br>
+                    <input class="checkinput" type="checkbox" id="input2">
+                    <label for="input2" class="radiolab">Back-end Projects</label><br>
+                    <input class="checkinput" type="checkbox" id="input3">
+                    <label for="input3" class="radiolab">Data Visualisation</label>
+                </div>
+            </li>
+        </ul>
+    </form>
+</div><!--flexbox-->
+</body>
+</html>

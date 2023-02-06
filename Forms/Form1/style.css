@@ -1,0 +1,27 @@
+.list__position{
+    list-style-position: inside;
+    margin-left: 20px;
+}
+.area{
+    resize: none;
+}
+.choose{
+    display: none;
+}
+.choose__label{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 1px 15px;
+}
+.choose__label:hover{
+    cursor: pointer;
+}
+.select{
+    border-radius: 4px;
+}
+.submit{
+    padding-left: 20px;
+}
+.location{
+    margin-top: 2px;
+}
