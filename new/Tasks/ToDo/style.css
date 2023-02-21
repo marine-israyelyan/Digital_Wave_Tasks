@@ -1,0 +1,29 @@
+.input-container{
+    margin: 0 20px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 500px;
+    flex: 0.5;
+    overflow: auto;
+}
+.list-style{
+    background: antiquewhite;
+}
+.list-style > div{
+    display: flex;
+    align-items: center;
+}
+.list-style > div > p{
+    margin-right: 10px;
+}
+.resolved_list{
+    background: forestgreen;
+}
